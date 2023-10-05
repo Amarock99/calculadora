@@ -1,0 +1,30 @@
+.movebuton{
+    margin-top: 45%;
+    margin-right: 70%;
+    
+}
+.bntnumerico{
+    background-color:rgb(40, 189, 77) ;
+    color: rgb(40, 189, 77) ;
+    
+ 
+}
+.segundacamada{
+    background-color: crimson;
+    width:90%;
+    height:10%;
+    padding: 10%;
+    margin: 10%;
+}
+.result{
+    font-size: 100;
+    color: rgb(92, 28, 41);
+    text-align: center;
+    }
+.primeiracamada{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 73, 73);
+    width: 400px;
+    height:600px;
+}
