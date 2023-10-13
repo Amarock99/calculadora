@@ -1,24 +1,56 @@
-<html lang="pt">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcualdora</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="calculadora.css">
+    <style>
+        *{
+            text-align: center;
+            color: aliceblue;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="primeiracamada">
-    
-        <div class="segundacamada">
-            <div class="result" >
-                <label for="">result</label>   
-        </div> 
-    <div calss="terceiracamada">
-        <div class="movebuton">
-            <button calss="bntnumerico">1rr</button>
+    <div class="back">
+        <h1>teste calculadora</h1>
+        <div class="fundo"> 
+            <p id=resultado>rqrq</p>
+             <table>
+                 <tr>
+                     <td><button id="clean" class="bnts">C</button></td>
+                    <td><button id="dividir" class="bnts">/</button></td>
+                    <td><button id="multiplicar" class="bnts">*</button></td>
+                    <td><button id="subtrair" class="bnts">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7"class="bnts">7</button></td>
+                    <td><button id="8" class="bnts">8</button></td>
+                    <td><button id="9" class="bnts">9</button></td>
+                    <td><button id="+" class="bnts">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" class="bnts">4</button></td>
+                    <td><button id="5" class="bnts">5</button></td>
+                    <td><button id="6" class="bnts">6</button></td>
+                    <td><button id="." class="bnts">.</button></td>
+                </tr>
+                <tr>
+                    <td><button id="1" class="bnts">1</button></td>
+                    <td><button id="2" class="bnts">2</button></td>
+                    <td><button id="3" class="bnts">3</button></td>
+                    <td rowspan="2" ><button id="=" class="bnts" style="height: 80px;">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="0" class="bnts" style="width: 80px;">0</button></td>
+                    <td><button id=","  class="bnts">,</button></td>
+                </tr>
+            </table>
         </div>
-    </div></div>
-
+    </div>
     
 </body>
 </html>
