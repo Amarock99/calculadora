@@ -18,30 +18,30 @@
     <div class="back">
         <h1>teste calculadora</h1>
         <div class="fundo"> 
-            <p id=resultado>rqrq</p>
+            <p id="resultado"></p>
              <table>
                  <tr>
-                     <td><button id="clean" class="bnts">C</button></td>
-                    <td><button id="dividir" class="bnts">/</button></td>
-                    <td><button id="multiplicar" class="bnts">*</button></td>
-                    <td><button id="subtrair" class="bnts">-</button></td>
+                    <td><button id="clean" class="bnts" onclick="insert('c')">C</button></td>
+                    <td><button id="dividir" class="bnts" onclick="insert('/')">/</button></td>
+                    <td><button id="multiplicar" class="bnts" onclick="insert('*')">*</button></td>
+                    <td><button id="subtrair" class="bnts" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
-                    <td><button id="7"class="bnts">7</button></td>
-                    <td><button id="8" class="bnts">8</button></td>
-                    <td><button id="9" class="bnts">9</button></td>
-                    <td><button id="+" class="bnts">+</button></td>
+                    <td><button id="7" class="bnts" onclick="insert('7')">7</button></td>
+                    <td><button id="8" class="bnts" onclick="insert('8')">8</button></td>
+                    <td><button id="9" class="bnts" onclick="insert('9')">9</button></td>
+                    <td><button id="+" class="bnts" onclick="insert('+')">+</button></td>
                 </tr>
                 <tr>
-                    <td><button id="4" class="bnts">4</button></td>
-                    <td><button id="5" class="bnts">5</button></td>
-                    <td><button id="6" class="bnts">6</button></td>
-                    <td><button id="." class="bnts">.</button></td>
+                    <td><button id="4" class="bnts" onclick="insert('4')">4</button></td>
+                    <td><button id="5" class="bnts" onclick="insert('5')">5</button></td>
+                    <td><button id="6" class="bnts" onclick="insert('6')">6</button></td>
+                    <td><button id="." class="bnts" onclick="insert('.')">.</button></td>
                 </tr>
                 <tr>
-                    <td><button id="1" class="bnts">1</button></td>
-                    <td><button id="2" class="bnts">2</button></td>
-                    <td><button id="3" class="bnts">3</button></td>
+                    <td><button id="1" class="bnts" onclick="insert('1')">1</button></td>
+                    <td><button id="2" class="bnts" onclick="insert('2')">2</button></td>
+                    <td><button id="3" class="bnts" onclick="insert('3')">3</button></td>
                     <td rowspan="2" ><button id="=" class="bnts" style="height: 80px;">=</button></td>
                 </tr>
                 <tr>
@@ -51,6 +51,7 @@
             </table>
         </div>
     </div>
+    <script src="main.js"></script>
     
 </body>
 </html>
